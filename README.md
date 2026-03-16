@@ -1,18 +1,16 @@
 # integracar-web
 
-Sistema de gestão e site institucional do projeto IntegraCAR — Integração do Cadastro Ambiental Rural no Estado do Espírito Santo.
+Site institucional do projeto IntegraCAR — Integração do Cadastro Ambiental Rural no Estado do Espírito Santo.
+
+Disponível em: [integracar.agr.br](https://integracar.agr.br)
 
 ---
 
 ## Sobre
 
-Este repositório contém o código do site institucional e do sistema de gestão do IntegraCAR, disponível em [integracar.agr.br](https://integracar.agr.br).
+Este repositório contém o código do site institucional do IntegraCAR, com informações sobre o projeto, parceiros institucionais e acesso aos demais módulos do sistema.
 
----
-
-## Tecnologias
-
-A definir conforme planejamento do módulo web.
+O site é servido no mesmo servidor que o sistema de gestão (`integracar-gestao`) e o dashboard (`integracar-dashboard`), com roteamento via Nginx.
 
 ---
 
@@ -22,9 +20,17 @@ A definir conforme planejamento do módulo web.
 integracar-web/
 ├── public/
 ├── src/
-├── requirements.txt (ou package.json)
 └── README.md
 ```
+
+---
+
+## Repositórios relacionados
+
+| Repositório | Descrição |
+|---|---|
+| [integracar-gestao](https://github.com/integracar-cachoeiro/integracar-gestao) | Sistema web de gestão, mesmo servidor |
+| [integracar-dashboard](https://github.com/integracar-cachoeiro/integracar-dashboard) | Painel Streamlit de análise de processos |
 
 ---
 
